@@ -1,3 +1,8 @@
+function playVideo()
+{
+    document.getElementById("youare-video").play();
+}
+
 function bookmark() {
 	if ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4)) {
 		var url = "lol.html";
