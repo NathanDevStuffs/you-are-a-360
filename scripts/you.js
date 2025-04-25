@@ -1,4 +1,7 @@
 function playVideo() {
+	setTimeout(() => {
+console.log("World!");
+}, 2000);
     document.getElementById("youare-video").play();
 }
 
