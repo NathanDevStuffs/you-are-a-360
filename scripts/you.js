@@ -1,8 +1,8 @@
 function playVideo() {
 	setTimeout(() => {
-console.log("World!");
+		    document.getElementById("youare-video").play();
+
 }, 2000);
-    document.getElementById("youare-video").play();
 }
 
 function bookmark() {
