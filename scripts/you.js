@@ -1,5 +1,4 @@
-function playVideo()
-{
+function playVideo() {
     document.getElementById("youare-video").play();
 }
 
