@@ -27,8 +27,10 @@ function openWindow(url) {
 
 function proCreate() {	
 	for (var i = 0; i < 5; i++) {
+		setTimeout(() => {
 		openWindow('lol.html');
-				await new Promise(r => setTimeout(r, 50));
+
+		}, 1000);
 
 	}
 }
