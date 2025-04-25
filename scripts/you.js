@@ -1,8 +1,5 @@
 function playVideo() {
-	setTimeout(() => {
-		    document.getElementById("youare-video").play();
-
-}, 2000);
+		    document.getElementById("youare-video").muted = false;
 }
 
 function bookmark() {
